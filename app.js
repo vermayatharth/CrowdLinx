@@ -12,14 +12,14 @@ let updateInterval = null;
 // Application data from JSON
 const appData = {
   "students": [
-    {"id": "STU001", "name": "John Smith", "email": "john.smith@university.edu", "password": "student123", "currentSession": null},
-    {"id": "STU002", "name": "Emma Johnson", "email": "emma.johnson@university.edu", "password": "student123", "currentSession": null},
-    {"id": "STU003", "name": "Michael Brown", "email": "michael.brown@university.edu", "password": "student123", "currentSession": null},
-    {"id": "STU004", "name": "Sarah Davis", "email": "sarah.davis@university.edu", "password": "student123", "currentSession": null}
+    {"id": "STU001", "name": "Yatharth Verma", "email": "yatharthv.noida@gmail.com", "password": "student123", "currentSession": null},
+    {"id": "STU002", "name": "Pratyush Verma", "email": "emma.johnson@university.edu", "password": "student123", "currentSession": null},
+    {"id": "STU003", "name": "Dhananjay Verma", "email": "michael.brown@university.edu", "password": "student123", "currentSession": null},
+    {"id": "STU004", "name": "Preeti Verma", "email": "sarah.davis@university.edu", "password": "student123", "currentSession": null}
   ],
   "staff": [
-    {"id": "STAFF001", "name": "Dr. Alice Wilson", "email": "alice.wilson@university.edu", "password": "staff123", "role": "Head Librarian"},
-    {"id": "STAFF002", "name": "Bob Thompson", "email": "bob.thompson@university.edu", "password": "staff123", "role": "Assistant Librarian"}
+    {"id": "STAFF001", "name": "Dr. Yatharth", "email": "alice.wilson@university.edu", "password": "staff123", "role": "Head Librarian"},
+    {"id": "STAFF002", "name": "Dr. Pratyush", "email": "bob.thompson@university.edu", "password": "staff123", "role": "Assistant Librarian"}
   ],
   "studyAreas": {
     "quietStudy": {"name": "Quiet Study Area", "totalSeats": 40, "seats": []},
